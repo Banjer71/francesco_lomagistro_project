@@ -14,29 +14,38 @@ function App() {
 			const bgImg = document.querySelector('#bg-image');
 			const navUl = document.querySelector('nav ul');
 			const footer = document.querySelector('.copyright');
-			if (imageRef.current) {
+			const flip = document.querySelector('.hero-flip');
+
+			
 				const rect = imageRef.current.getBoundingClientRect();
-				console.log(rect.top - window.innerHeight);
+			if (window.innerWidth > 960) {
 				if (rect.top - window.innerHeight <= 20 && rect.top - window.innerHeight > -259) {
 					bgImg.style.backgroundImage = 'url(/assets/triot.jpg)';
 					bgImg.style.backgroundSize = 'cover';
-					bgImg.classList.add('fade-in');
 					navUl.style.backgroundColor = '#f9c943';
 					footer.style.backgroundColor = '#f9c943';
+					flip.innerText = 'T-RIOT'
+					flip.style.color = '#f9c943'
 				} else if (rect.top - window.innerHeight < -260) {
 					bgImg.style.backgroundImage = 'url(/assets/bjc.jpg)';
-					bgImg.classList.add('fade-in');
 					bgImg.style.backgroundPosition = 'top';
 					navUl.style.backgroundColor = '#5bc63d';
 					footer.style.backgroundColor = '#5bc63d';
+					flip.innerText = 'Berardi\n Jazz\n Connection'
+					flip.style.color = '#5bc63d'
 				} else {
 					bgImg.style.backgroundImage = 'url(/assets/hero-desktop-fl.jpg)';
 					bgImg.style.backgroundSize = 'auto';
 					bgImg.style.backgroundPosition = 'top right';
 					navUl.style.backgroundColor = '#75accb';
 					footer.style.backgroundColor = '#75accb';
+					flip.innerText = 'Drummer\n Percussionist\n Educator'
+					flip.style.color = '#75accb'
+					
 				}
 			}
+				
+			
 		});
 	});
 

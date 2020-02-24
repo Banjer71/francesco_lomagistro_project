@@ -145,7 +145,6 @@ section img {
 		justify-content: center;
 		align-items: center;
 		letter-spacing: 1px;
-		/* background-color: #fff; */
 		background-color: #75accb;
 	}
 
@@ -166,24 +165,6 @@ section img {
 		background-color: #000;
 		position: fixed;
 		background-position: top right;
-		
-		/* visibility: hidden; */
-	}
-
-	.fade-in {
-		-webkit-animation: animat_show 0.8s;
-		animation: fade-in 2s;
-		/* visibility: visible !important; */
-	}
-	
-	@keyframes fade-in {
-		from {
-			opacity: 0;
-		}
-
-		to {
-			opacity: 1;
-		}
 	}
 
 	.hero-flip {
