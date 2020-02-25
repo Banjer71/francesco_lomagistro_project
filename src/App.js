@@ -11,41 +11,27 @@ function App() {
 
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
-			const bgImg = document.querySelector('#bg-image');
-			const navUl = document.querySelector('nav ul');
-			const footer = document.querySelector('.copyright');
+
 			const flip = document.querySelector('.hero-flip');
 
-			
-				const rect = imageRef.current.getBoundingClientRect();
+			const rect = imageRef.current.getBoundingClientRect();
+			let bodyClass = 'section1';
 			if (window.innerWidth > 960) {
-				if (rect.top - window.innerHeight <= 20 && rect.top - window.innerHeight > -259) {
-					bgImg.style.backgroundImage = 'url(/assets/triot.jpg)';
-					bgImg.style.backgroundSize = 'cover';
-					navUl.style.backgroundColor = '#f9c943';
-					footer.style.backgroundColor = '#f9c943';
-					flip.innerText = 'T-RIOT'
-					flip.style.color = '#f9c943'
+				if (rect.top - window.innerHeight <= 10 && rect.top - window.innerHeight > -259) {
+					bodyClass = 'section1';
+					flip.innerText = 'T-RIOT';
+					flip.style.color = '#f9c943';
 				} else if (rect.top - window.innerHeight < -260) {
-					bgImg.style.backgroundImage = 'url(/assets/bjc.jpg)';
-					bgImg.style.backgroundPosition = 'top';
-					navUl.style.backgroundColor = '#5bc63d';
-					footer.style.backgroundColor = '#5bc63d';
-					flip.innerText = 'Berardi\n Jazz\n Connection'
-					flip.style.color = '#5bc63d'
+					bodyClass = 'section2';
+					flip.innerText = 'Berardi\n Jazz\n Connection';
+					flip.style.color = '#5bc63d';
 				} else {
-					bgImg.style.backgroundImage = 'url(/assets/hero-desktop-fl.jpg)';
-					bgImg.style.backgroundSize = 'auto';
-					bgImg.style.backgroundPosition = 'top right';
-					navUl.style.backgroundColor = '#75accb';
-					footer.style.backgroundColor = '#75accb';
-					flip.innerText = 'Drummer\n Percussionist\n Educator'
-					flip.style.color = '#75accb'
-					
+					bodyClass = 'section3';
+					flip.innerText = 'Drummer\n Percussionist\n Educator';
+					flip.style.color = '#75accb';
 				}
 			}
-				
-			
+			document.body.className = bodyClass;
 		});
 	});
 
@@ -72,7 +58,11 @@ function App() {
 						</li>
 					</ul>
 				</nav>
-				<header id="bg-image">
+				<header>
+					<div id="bg-image" />
+					<div id="t-riot" />
+					<div id="Bjc" />
+
 					<div className="header-logo">
 						<h2 className="hero-flip">
 							Drummer<br />Percussionist<br />Educator
@@ -134,21 +124,14 @@ function App() {
 							</h1>
 							<img src={bjc} alt="Berardi Jazz Connection band" />
 							<p className="info-text">
-								<a
-									href="http://www.berardijazzconnection.com/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<span className="BJC">Berardi Jazz Connection</span>
-								</a>{' '}
-								was birthed by Francesco Lomagistro’s well-known drummer/percussionist idea to put
-								together all the experiences that come from his passion for Afro – american music, the
-								‘groove’, and the synergy between rhythm and melody. The voyage started many years ago
-								in the center of Taranto (south of Italy) on a street called Via Berardi where,
-								Francesco had an apartment using it as a rehearsal studio. After many different
-								experiences as “sideman” and different concerts around the world with both artists, in
-								the year 2005 Francesco decided to “give life” to this project involving other Italian
-								talents and international sp guests.
+								Berardi Jazz Connection was birthed by Francesco Lomagistro’s well-known
+								drummer/percussionist idea to put together all the experiences that come from his
+								passion for Afro – american music, the ‘groove’, and the synergy between rhythm and
+								melody. The voyage started many years ago in the center of Taranto (south of Italy) on a
+								street called Via Berardi where, Francesco had an apartment using it as a rehearsal
+								studio. After many different experiences as “sideman” and different concerts around the
+								world with both artists, in the year 2005 Francesco decided to “give life” to this
+								project involving other Italian talents and international sp guests.
 							</p>
 						</div>
 					</section>
@@ -190,7 +173,7 @@ function App() {
 						</ul>
 						<div className="spacer" />
 						<p className="copyright">
-							@2020 <a href="https://davidenaccarati.com">Davide Naccarati</a>All rights reserved
+							@2020 <a href="https://davidenaccarati.com">Davide Naccarati</a> All rights reserved
 						</p>
 					</div>
 				</footer>
