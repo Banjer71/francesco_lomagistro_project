@@ -6,7 +6,7 @@ Refactoring of an Italian Jazz Drummer website.
 
 ### Technologies
 
-Figma 
+Figma<br/>
 ReactJS
 
 
