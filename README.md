@@ -9,4 +9,8 @@ Refactoring of an Italian Jazz Drummer website.
 Figma<br/>
 ReactJS
 
+## Screenshot
+
+<img src='screenshot.jpg' width="640">
+
 
