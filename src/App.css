@@ -7,27 +7,44 @@
 	font-size: 16px;
 }
 
-body {
-	background-color: #000;
-}
-
 .container {
 	background-color: #fff;
 }
 
-header {
-	background: url('/assets/monile-header.jpg');
+nav {
+	height: 40px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top: 0;
+}
+
+#bg-image {
+	background-image: linear-gradient(to bottom, rgba(214, 209, 209, 0.05), rgba(71, 68, 68, 0.4)),
+		url('/assets/monile-header.jpg');
 	height: 80vh;
 	max-width: 100%;
 	background-size: cover;
-	background-position: top center;
 	background-repeat: no-repeat;
 	-webkit-box-shadow: 0px 10px 12px -12px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 0px 10px 12px -12px rgba(0, 0, 0, 0.75);
 	box-shadow: 0px 10px 12px -12px rgba(0, 0, 0, 0.75);
 }
 
-nav {
+#triot-bg {
+	background-image: url('/assets/triot.jpg');
+	height: 80vh;
+	max-width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-box-shadow: 0px 10px 12px -12px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 10px 12px -12px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 10px 12px -12px rgba(0, 0, 0, 0.75);
+}
+
+nav .logo,
+nav .menu {
 	display: none;
 }
 
@@ -58,13 +75,15 @@ h2 {
 
 .hero-flip {
 	font-size: 2.5rem;
-	opacity: 0.5;
+	opacity: 0.8;
 	color: #75accb;
 	position: absolute;
 	top: 40%;
 	left: 4%;
 	text-align: left;
 }
+
+
 
 section {
 	margin: 20px 10px;
@@ -84,7 +103,7 @@ section img {
 
 /* social media */
 
-.media {
+.media-icons {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -117,7 +136,7 @@ section img {
 /* media queris */
 
 @media screen and (min-width: 620px) {
-	header {
+	#bg-image {
 		height: 85vh;
 		background-image: url('/assets/hero-desktop-fl.jpg');
 	}
@@ -135,6 +154,15 @@ section img {
 		box-shadow: 0px 10px 12px -12px rgba(0, 0, 0, 0.75);
 	}
 
+	nav .toggle-button {
+		display: none;
+	}
+
+	nav .logo,
+	nav .menu {
+		display: inline-flex;
+	}
+
 	nav .logo {
 		margin: 10px;
 	}
@@ -147,6 +175,10 @@ section img {
 		background-color: #75accb;
 	}
 
+	nav ul li:first-child {
+		padding-left: 40px;
+	}
+
 	nav ul li a {
 		color: rgb(53, 48, 48);
 		font-family: 'Merriweather Sans', sans-serif;
@@ -156,7 +188,19 @@ section img {
 		font-size: 1.2rem;
 	}
 
-	header {
+	#bg-image {
+		display: none;
+	}
+
+	#triot-bg {
+		display: none;
+	}
+
+	.header-class {
+		background-image: url('/assets/hero-desktop-fl.jpg');
+		background-position: top center;
+		background-size: cover;
+		background-repeat: no-repeat;
 		width: 70vw;
 		height: 100vh;
 		position: fixed;
@@ -165,7 +209,11 @@ section img {
 		transition: opacity 2s ease;
 	}
 
-	header > div {
+	.image {
+		background-image: url('/assets/triot.jpg');
+	}
+
+	.header-class > div {
 		position: absolute;
 		height: 100%;
 		width: 100%;
@@ -173,53 +221,76 @@ section img {
 		transition: opacity 2s ease;
 	}
 
-	.header-logo {
+	.header-class .header-logo {
 		opacity: 1;
 	}
 
-	#t-riot {
-		background-image: url('/assets/triot.jpg');
+	#fl-1 {
+		background-image: url('/assets/francesco_top.jpg');
 		background-size: cover;
-		
 	}
 
-	#Bjc {
-		background-image: url('/assets/bjc.jpg');
+	#fl-2 {
+		background-image: url('/assets/main_large.jpg');
 		background-position: top;
 		background-size: auto 100%;
 	}
 
-	.section1 #t-riot,
-	.section2 #Bjc {
+	.section1 #fl-1,
+	.section2 #fl-2 {
+		opacity: 1;
+	}
+
+	#triot-bg {
+		background-image: url('/assets/projects.jpg');
+	}
+
+	#triot-bg-2 {
+		background-image: url('/assets/bjc.jpg');
+	}
+
+	#triot-bg-3 {
+		background-image: url('/assets/triot.jpg');
+		background-size: cover;
+	}
+
+	.section4 #triot-bg-3,
+	.section5 #triot-bg-2 {
 		opacity: 1;
 	}
 
 	nav ul,
-  .copyright {
-    transition: background 0.2s ease;
-  }
+	.copyright {
+		transition: background 0.2s ease;
+	}
 
-  .section1 nav ul,
-  .section1 .copyright {
-    background: #f9c943;
-  }
+	.section1 nav ul,
+	.section1 .copyright {
+		background: #75accb;
+	}
 
-  .section2 nav ul,
-  .section2 .copyright {
-    background: #5bc63d;
-  }
+	.section2 nav ul,
+	.section2 .copyright {
+		background: #f9c943;
+	}
+	.section5 nav ul,
+	.section5 .copyright,
+	.section4 nav ul,
+	.section4 .copyright {
+		background: #f9c943;
+	}
 
-  .hero-flip {
-    transform: color 0.2s ease;
-  }
+	.hero-flip {
+		transform: color 0.2s ease;
+	}
 
-  .section1 .hero-flip {
-    color: #f9c943;
-  }
+	.section1 .hero-flip {
+		color: #f9c943;
+	}
 
-  .section2 .hero-flip {
-    color: #5bc63d;
-  }
+	.section2 .hero-flip {
+		color: #f9c943;
+	}
 
 	.hero-flip {
 		font-size: 4rem;
@@ -242,7 +313,7 @@ section img {
 	.primary-section {
 		grid-column-start: 2;
 		margin-top: 80px;
-		height: 2000px;
+		height: 105%;
 	}
 
 	.primary-section h1 {
@@ -250,7 +321,7 @@ section img {
 	}
 
 	.pro {
-		margin: 2rem 0;
+		margin: 1rem 0;
 	}
 
 	.contacts {
@@ -288,5 +359,4 @@ section img {
 		grid-column: 2;
 	}
 }
-@media screen and (min-width: 1600px) {
-}
+

@@ -1,0 +1,34 @@
+.video {
+	margin-top: 80%;
+}
+
+.video-sidebar-bg {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.video-sidebar-bg .video-text {
+	padding: 5px;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 0.5rem;
+}
+
+.video-text h4 {
+	font-size: 0.8rem;
+}
+.video-text p {
+	font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+	
+	.primary-section > .video {
+		height: 110%;
+		margin-left: 20px;
+	}
+	.video {
+		margin-top: 30px;
+	}
+}
