@@ -143,6 +143,7 @@ section img {
 }
 
 @media screen and (min-width: 1024px) {
+	
 	nav {
 		display: grid;
 		position: fixed;
@@ -303,6 +304,10 @@ section img {
 
 	section img {
 		display: none;
+	}
+
+	.social-media-li a img {
+		display: block;
 	}
 
 	.side-bar {
