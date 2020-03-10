@@ -7,15 +7,17 @@ import fl4 from '../../images/fl4.jpg'
 const FL_Sidebar_Info = () => {
 	const imageRef = useRef(null);
 
+	
+
 	const handleScroll = () => {
 		const flip = document.querySelector('.hero-flip');
 		const rect = imageRef.current.getBoundingClientRect();
-
+		
 		let bodyClass = 'section1';
-
+		
 		if (window.innerWidth > 960) {
 			if (rect.top - window.innerHeight <= 10 && rect.top - window.innerHeight > -259) {
-				console.log(rect.top - window.innerHeight);
+				//console.log(rect.top - window.innerHeight);
 				bodyClass = 'section1';
 				flip.innerText = 'Percussionist';
 			} else if (rect.top - window.innerHeight < -260) {
@@ -30,6 +32,8 @@ const FL_Sidebar_Info = () => {
 		document.body.className = bodyClass;
 	};
 
+	
+	
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
 		return () => {
@@ -38,14 +42,14 @@ const FL_Sidebar_Info = () => {
 	});
 
 	return (
-		<div className="info">
+		<div className="info" id='homepage'>
 			<h1 className="pro" id="fl" ref={imageRef}>
 				Francesco Lomagsitro
 			</h1>
 			<p className="info-text">
 				Batterista/Percussionista/Insegnante da diversi anni sulle scene musicali nazionali ed internazionali,
 				il suo approccio alla musica inizia con lo studio del pianoforte all’età di 11 anni per poi passare alla
-				batteria a 16. Inizia da autodidatta per poi prendere le prime lezioni e in seguito approfond la sua
+				batteria a 16. Inizia da autodidatta per poi prendere le prime lezioni e in seguito approfondisce la sua
 				formazione partecipando a workshop e seminari con i "Big" dello strumento. Ha conseguito la Laurea in
 				“Strumenti a Percussioni” presso il Conservatorio N. Piccinni di Bari , ed in seguito la specialistica
 				di II livello per la Didattica per lo Strumento Musicale.

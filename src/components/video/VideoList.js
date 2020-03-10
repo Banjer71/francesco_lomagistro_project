@@ -9,7 +9,7 @@ const VideoList = (props) => {
 	};
 
 	return (
-		<div className="video">
+		<div className="video" id='videos'>
 			<div className="media-video">
 				<VideoFrame
 					onVideoChange={(e) => renderVideo('https://www.youtube.com/embed/UhtpNjlIWjw')}

@@ -19,6 +19,7 @@ nav {
 	top: 0;
 }
 
+
 #bg-image {
 	background-image: linear-gradient(to bottom, rgba(214, 209, 209, 0.05), rgba(71, 68, 68, 0.4)),
 		url('/assets/monile-header.jpg');

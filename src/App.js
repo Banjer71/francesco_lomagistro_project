@@ -33,7 +33,6 @@ function App() {
 	};
 
 	let backdrop;
-
 	if (sideDrawerIsOpen) {
 		backdrop = <Backdrop click={backdropHandler} />;
 	}

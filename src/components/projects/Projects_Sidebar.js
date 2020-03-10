@@ -14,6 +14,7 @@ const Projects_Sidebar = () => {
 		const flip = document.querySelector('.hero-flip');
 		const image = document.querySelector('.image');
 		const rect = imageRef.current.getBoundingClientRect();
+		console.log(rect);
 
 		let bodyClass = 'section4';
 
@@ -35,32 +36,6 @@ const Projects_Sidebar = () => {
 		document.body.className = bodyClass;
 	};
 
-	function getDocHeight() {
-		var D = document;
-		return Math.max(
-			D.body.scrollHeight, D.documentElement.scrollHeight,
-			D.body.offsetHeight, D.documentElement.offsetHeight,
-			D.body.clientHeight, D.documentElement.clientHeight
-		)
-	}
-	 
-	const docheight = getDocHeight()
-
-	function amountscrolled(){
-		var winheight= window.innerHeight || (document.documentElement || document.body).clientHeight
-		var docheight = getDocHeight()
-		var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
-		var trackLength = docheight - winheight
-		var pctScrolled = Math.floor(scrollTop/trackLength * 100) // gets percentage scrolled (ie: 80 or NaN if tracklength == 0)
-		console.log(pctScrolled + '% scrolled')
-	}
-
-	
-	 
-	window.addEventListener("scroll", function(){
-		amountscrolled()
-	}, false)
-
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
 		return () => {
@@ -69,7 +44,7 @@ const Projects_Sidebar = () => {
 	});
 
 	return (
-		<div className="info">
+		<div className="info" id="projects">
 			<h1 className="pro" id="triot" ref={imageRef}>
 				T-RIOT
 			</h1>
@@ -93,11 +68,11 @@ const Projects_Sidebar = () => {
 				internazionale. Il trio conquisterà il pubblico asiatico con un tour conclusosi a Giugno 2018 toccando
 				città come Bangkok e Hong Kong
 			</p>
-			<p className="info-text" style={{ fontStyle: 'italic', fontSize: '15px' }}>
+			<p className="info-text" style={{ fontStyle: 'italic', fontSize: '15px', padding: '30px' }}>
 				“Energia frizzante messa su con criterio e con l’eleganza tipica degli anni Sessanta-Settanta, senza
 				alcuna copiatura.” - Musica Jazz
 			</p>
-			<p className="info-text" style={{ fontStyle: 'italic', fontSize: '15px' }}>
+			<p className="info-text" style={{ fontStyle: 'italic', fontSize: '15px', padding: '30px' }}>
 				"It’s a super album." - Ruth Fisher (Presenter Jazz FM London)
 			</p>
 			<img src={Triot} alt="T-riot on stage" />
@@ -149,14 +124,14 @@ const Projects_Sidebar = () => {
 				accompagnato da alcuni nuovi elementi nella band , come Michele Campobasso al e Francesco Lento alla
 				tromba.
 			</p>
-			<p className="info-text" style={{ fontStyle: 'italic', fontSize: '14px' }}>
+			<p className="info-text" style={{ fontStyle: 'italic', fontSize: '15px', padding: '30px' }}>
 				..A cool combo from the Italian scene --The sound here is a great mix of modern club jazz and older 60s
 				modes -- played in styles that recall the sound of Prestige or Riverside from years back, but which also
 				tunes the rhythms towards some of the more contemporary modes explored by the best underground jazz
 				groups of the European scene of late!<br />
 				<span style={{ fontWeight: 'Bold' }}>“Dusty Groove“</span>
 			</p>
-			<p className="info-text" style={{ fontStyle: 'italic', fontSize: '14px' }}>
+			<p className="info-text" style={{ fontStyle: 'italic', fontSize: '15px', padding: '30px' }}>
 				This Italian band meshes tasteful, modern production with incredible live' playing, and the result is a
 				joyous celebration of jazz artistry. The grooves are a hipster's paradise, yet the overall sound is
 				accessible to everyone. It's one of the top CDs in my stack by a band that I'd love to see in a smoky
@@ -187,9 +162,8 @@ const Projects_Sidebar = () => {
 				<SocialMedia icon={facebook_logo} link="https://www.facebook.com/berardijazzconnection/" />
 				<SocialMedia icon={spotify_logo} link="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc" />
 			</div>
-			<hr style={{margin: '2rem'}}/>
 			<h1>English Section</h1>
-			<h1 className="pro" id="triot" ref={imageRef}>
+			<h1 className="pro" id="triot">
 				T-RIOT
 			</h1>
 			<p className="info-text">
@@ -200,7 +174,7 @@ const Projects_Sidebar = () => {
 				bass and drums come together fantastically here with Pietro Vincenti on acoustic keys, Camillo Pace on
 				bass, and Francesco Lomagistro on drums.
 			</p>
-			<h1 className="pro" id="bjc" ref={imageRef}>
+			<h1 className="pro" id="bjc">
 				Berardi Jazz Connection
 			</h1>
 			<p className="info-text">

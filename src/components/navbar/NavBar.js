@@ -10,17 +10,17 @@ const NavBar = ({ toggleClickHandler, logo, home, projects, video, handleClickOn
 			<div className="logo">{logo}</div>
 			<ul className="menu" >
 				<li>
-					<Link to='/' alt="Home" click={handleClickOnItem}>
+					<Link to='/' alt="Home" >
 						{home}
 					</Link>
 				</li>
 				<li>
-					<Link to='/projects' alt="projects" click={handleClickOnItem}>
+					<Link to='/projects' alt="projects" >
 						{projects}
 					</Link>
 				</li>
 				<li>
-					<Link to='/video' alt="videos" click={handleClickOnItem}>
+					<Link to='/video' alt="videos" >
 						{video}
 					</Link>
 				</li>
