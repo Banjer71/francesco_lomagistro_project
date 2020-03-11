@@ -13,7 +13,6 @@ import Projects_Header from './components/projects/Projects_Header';
 import Projects_Sidebar from './components/projects/Projects_Sidebar';
 import VideoSelected from './components/video/VideoSelected';
 import VideoList from './components/video/VideoList';
-
 import ScrollOnTop from './ScrollOnTop';
 
 function App() {
@@ -48,7 +47,6 @@ function App() {
 				<div className="container">
 					<SideDrawer show={sideDrawerIsOpen} handleClickOnItem={handleClickOnItem} />
 					{backdrop}
-
 					<NavBar
 						toggleClickHandler={toggleClickHandler}
 						logo="Francesco Lomagistro"
@@ -57,7 +55,6 @@ function App() {
 						video="video"
 						handleClickOnItem={handleClickOnItem}
 					/>
-
 					<Header>
 						<Route path="/" exact component={FL_Header} />
 						<Route path="/video">

@@ -4,6 +4,7 @@ import bjc from '../../images/bjc.jpg';
 import SocialMedia from '../socialmedia/SocialMedia';
 import spotify_logo from '../../social-icons/spotify.svg';
 import facebook_logo from '../../social-icons/facebook.svg';
+import bjc_founders from '../../images/bjc_founders.jpg'
 
 import './projects.css';
 
@@ -162,7 +163,10 @@ const Projects_Sidebar = () => {
 				<SocialMedia icon={facebook_logo} link="https://www.facebook.com/berardijazzconnection/" />
 				<SocialMedia icon={spotify_logo} link="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc" />
 			</div>
-			<h1>English Section</h1>
+			<img src={bjc_founders} alt="Berardi Jazz Connection band" />
+			
+			<hr/>
+			<h1>English version</h1>
 			<h1 className="pro" id="triot">
 				T-RIOT
 			</h1>

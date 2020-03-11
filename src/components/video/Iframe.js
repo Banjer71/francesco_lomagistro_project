@@ -3,7 +3,6 @@ import React from 'react';
 const Iframe = (props) => {
 	return (
 		<iframe
-			title={props.videoId}
 			width={props.width}
 			height={props.height}
 			src={props.link}

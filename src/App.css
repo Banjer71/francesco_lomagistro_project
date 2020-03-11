@@ -19,7 +19,6 @@ nav {
 	top: 0;
 }
 
-
 #bg-image {
 	background-image: linear-gradient(to bottom, rgba(214, 209, 209, 0.05), rgba(71, 68, 68, 0.4)),
 		url('/assets/monile-header.jpg');
@@ -84,8 +83,6 @@ h2 {
 	text-align: left;
 }
 
-
-
 section {
 	margin: 20px 10px;
 	color: rgba(0, 0, 0, 0.75);
@@ -144,7 +141,6 @@ section img {
 }
 
 @media screen and (min-width: 1024px) {
-	
 	nav {
 		display: grid;
 		position: fixed;
@@ -243,12 +239,11 @@ section img {
 		opacity: 1;
 	}
 
-	#triot-bg {
-		background-image: url('/assets/projects.jpg');
-	}
-
 	#triot-bg-2 {
-		background-image: url('/assets/bjc.jpg');
+		background-image: url('/assets/bjc_founders.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top;
 	}
 
 	#triot-bg-3 {
@@ -365,4 +360,3 @@ section img {
 		grid-column: 2;
 	}
 }
-
