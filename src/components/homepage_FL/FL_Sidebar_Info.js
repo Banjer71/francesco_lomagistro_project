@@ -10,15 +10,15 @@ const FL_Sidebar_Info = () => {
 	const handleScroll = () => {
 		const flip = document.querySelector('.hero-flip');
 		const rect = imageRef.current.getBoundingClientRect();
-
+		console.log(rect.top - window.innerHeight);
 		let bodyClass = 'section1';
 
 		if (window.innerWidth > 960) {
-			if (rect.top - window.innerHeight <= 0 && rect.top - window.innerHeight > -100) {
+			if (rect.top - window.innerHeight < 700) {
 				console.log(rect.top - window.innerHeight);
 				bodyClass = 'section1';
-			} else if (rect.top - window.innerHeight < -101) {
-				// bodyClass = 'section2';
+			} else if (rect.top - window.innerHeight < 300) {
+				bodyClass = 'section2';
 			} else {
 				bodyClass = 'section3';
 				flip.style.color = '#75accb';
@@ -62,14 +62,20 @@ const FL_Sidebar_Info = () => {
 			<img src={fl1} alt="T-riot on stage" />
 			<p className="info-text">
 				Oltre alle innumerevoli collaborazioni da sideman , nel 2005 da vita a dei progetti che lo vedono in
-				prima linea come leader ; primo fra tutti e in collaborazione con Ettore Carucci, i <a href='https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc' target='_blank'><span style={{fontWeight: 'bold', color: '#000'}}>Berardi Jazz Connection</span></a>, un progetto jazz annoverato fra i più di spicco nel panorama del contemporany jazz europeo
-				con i quali ha rilasciato 4 cd conosciuti in tutto il mondo, Giappone ,Usa e Nord Europa in testa;
-				alcune composizioni sono state incluse in compilation di label e network mondiali. Nel 2016 ha formato
-				un nuovo progetto, i <a href='https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh' target='_blank'><span style={{fontWeight: 'bold', color: '#000'}}>T-RIOT</span></a>, con i quali ha prodotto “A Different Truth” cd edito per l’etichetta
-				giapponese Albòre Jazz, conquistando nuovi estimatori in Giappone , Nord Europa, Sud Africa e Stati
-				Uniti; nominato fra i migliori dischi del 2017 per Radio Jazz fm di Londra, e ai primi posti della Top
-				Jazz Charts di iTunes in Finlandia e Vietnam, nella primavera del 2018 faranno un tour esibendosi in
-				teatri e jazz club in Thailandia e Cina
+				prima linea come leader ; primo fra tutti e in collaborazione con Ettore Carucci, i{' '}
+				<a href="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc" target="_blank">
+					<span style={{ fontWeight: 'bold', color: '#000' }}>Berardi Jazz Connection</span>
+				</a>, un progetto jazz annoverato fra i più di spicco nel panorama del contemporany jazz europeo con i
+				quali ha rilasciato 4 cd conosciuti in tutto il mondo, Giappone ,Usa e Nord Europa in testa; alcune
+				composizioni sono state incluse in compilation di label e network mondiali. Nel 2016 ha formato un nuovo
+				progetto, i{' '}
+				<a href="https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh" target="_blank">
+					<span style={{ fontWeight: 'bold', color: '#000' }}>T-RIOT</span>
+				</a>, con i quali ha prodotto “A Different Truth” cd edito per l’etichetta giapponese Albòre Jazz,
+				conquistando nuovi estimatori in Giappone , Nord Europa, Sud Africa e Stati Uniti; nominato fra i
+				migliori dischi del 2017 per Radio Jazz fm di Londra, e ai primi posti della Top Jazz Charts di iTunes
+				in Finlandia e Vietnam, nella primavera del 2018 faranno un tour esibendosi in teatri e jazz club in
+				Thailandia e Cina
 			</p>
 			<img src={fl2} alt="T-riot on stage" />
 			<p className="info-text">
@@ -111,9 +117,14 @@ const FL_Sidebar_Info = () => {
 				As Leader
 			</h1>
 			<p className="info-text">
-				He leads the group <a href='https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc' target='_blank'><span style={{fontWeight: 'bold', color: '#000'}}>Berardi Jazz Connection</span></a>, a European jazz project whose release 4 cd well known around
-				the world, Japan ahead, and Usa and North Europe, and since 2016 he formed a new trio project the 
-				<a href='https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh' target='_blank'><span style={{fontWeight: 'bold', color: '#000'}}> T-RIOT</span></a>, with which he released the first cd "A different truth" for the japanese label Albòre Jazz,
+				He leads the group{' '}
+				<a href="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc" target="_blank">
+					<span style={{ fontWeight: 'bold', color: '#000' }}>Berardi Jazz Connection</span>
+				</a>, a European jazz project whose release 4 cd well known around the world, Japan ahead, and Usa and
+				North Europe, and since 2016 he formed a new trio project the
+				<a href="https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh" target="_blank">
+					<span style={{ fontWeight: 'bold', color: '#000' }}> T-RIOT</span>
+				</a>, with which he released the first cd "A different truth" for the japanese label Albòre Jazz,
 				conquering new fans in Japan, North Europe, South Africa and Usa; the cd has been in some jazz top
 				charts, and on May 2018 they made a tour in Asia , playing in theatres and venues in Bangkok and Honk
 				Kong.

@@ -31,9 +31,9 @@ const VideoList = (props) => {
 					/>
 				</VideoFrame>
 				<VideoFrame
-					onVideoChange={(e) => renderVideo('https://www.youtube.com/embed/J6UO5WENBD4')}
-					videotitle="Mino..il piccolo Golia"
-					videoauthor="Davide Naccarati"
+					onVideoChange={(e) => renderVideo('https://www.youtube.com/embed/0rOF_LpMwaY')}
+					videotitle="Paiste Cymbals - Francesco Lomagistro (Studio Session)"
+					videoauthor="Francesco Lomagistro"
 				>
 					<Iframe
 						width="160"

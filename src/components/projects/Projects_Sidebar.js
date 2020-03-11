@@ -4,7 +4,7 @@ import bjc from '../../images/bjc.jpg';
 import SocialMedia from '../socialmedia/SocialMedia';
 import spotify_logo from '../../social-icons/spotify.svg';
 import facebook_logo from '../../social-icons/facebook.svg';
-import bjc_founders from '../../images/bjc_founders.jpg'
+import bjc_founders from '../../images/bjc_founders.jpg';
 
 import './projects.css';
 
@@ -15,7 +15,6 @@ const Projects_Sidebar = () => {
 		const flip = document.querySelector('.hero-flip');
 		const image = document.querySelector('.image');
 		const rect = imageRef.current.getBoundingClientRect();
-		console.log(rect);
 
 		let bodyClass = 'section4';
 
@@ -164,8 +163,8 @@ const Projects_Sidebar = () => {
 				<SocialMedia icon={spotify_logo} link="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc" />
 			</div>
 			<img src={bjc_founders} alt="Berardi Jazz Connection band" />
-			
-			<hr/>
+
+			<hr />
 			<h1>English version</h1>
 			<h1 className="pro" id="triot">
 				T-RIOT
