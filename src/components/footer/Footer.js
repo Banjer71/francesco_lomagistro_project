@@ -14,8 +14,8 @@ const Footer = () => {
 				<div className="media-icons">
 					<SocialMedia icon={mail_logo} link="mailto:francescolomagistro@gmail.com"/>
 					<SocialMedia icon={facebook_logo} link="https://www.facebook.com/flomagistro" />
-					<SocialMedia icon={youtube_logo} link="https://www.instagram.com/lomagistrodrums/" />
-					<SocialMedia icon={instagram_logo} link="https://www.youtube.com/user/jofradrums" />
+					<SocialMedia icon={youtube_logo} link="https://www.youtube.com/user/jofradrums/" />
+					<SocialMedia icon={instagram_logo} link="https://www.instagram.com/lomagistrodrums/" />
 				</div>
 
 				<div className="spacer" />
