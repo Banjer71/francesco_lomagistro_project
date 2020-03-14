@@ -139,25 +139,7 @@ const Projects_Sidebar = () => {
 				Mas.<br />
 				<span style={{ fontWeight: 'bold' }}>“RAFE GOMEZ (Dj network Smoth Jazz 101.9 New York)“</span>
 			</p>
-			<div className="band-members">
-				<ul className="triot-band-members">
-					<li>
-						<a>
-							Drums: <span>Francesco Lomagistro</span>
-						</a>
-					</li>
-					<li>
-						<a>
-							Bass player: <span>Camillo Pace</span>
-						</a>
-					</li>
-					<li>
-						<a>
-							Keyboards: <span>Pietro Vincenti</span>
-						</a>
-					</li>
-				</ul>
-			</div>
+			
 			<div className="media-icons">
 				<SocialMedia icon={facebook_logo} link="https://www.facebook.com/berardijazzconnection/" />
 				<SocialMedia icon={spotify_logo} link="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc" />

@@ -1,4 +1,4 @@
-## refactoring customer's website
+## Refactoring customer's website
 
 Refactoring of an Italian Jazz Drummer website.
 
