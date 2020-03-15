@@ -42,8 +42,9 @@ const FL_Sidebar_Info = () => {
 			<p className="info-text">
 				Batterista/Percussionista/Insegnante da diversi anni sulle scene musicali nazionali ed internazionali,
 				il suo approccio alla musica inizia con lo studio del pianoforte all’età di 11 anni per poi passare alla
-				batteria a 16. Inizia da autodidatta per poi prendere le prime lezioni e in seguito approfondisce la sua
-				formazione partecipando a workshop e seminari con i "Big" dello strumento. Ha conseguito la Laurea in
+				batteria a 16.</p> 
+			<p className="info-text">Inizia da autodidatta per poi prendere le prime lezioni e in seguito approfondisce la sua
+				formazione partecipando a workshop e seminari con i "Big" dello strumento. <br/>Ha conseguito la Laurea in
 				“Strumenti a Percussioni” presso il Conservatorio N. Piccinni di Bari , ed in seguito la specialistica
 				di II livello per la Didattica per lo Strumento Musicale.
 			</p>
@@ -61,14 +62,14 @@ const FL_Sidebar_Info = () => {
 			</p>
 			<img src={fl1} alt="T-riot on stage" />
 			<p className="info-text">
-				Oltre alle innumerevoli collaborazioni da sideman , nel 2005 da vita a dei progetti che lo vedono in
+				Oltre alle innumerevoli collaborazioni da sideman , dal 2005 da vita a dei progetti che lo vedono in
 				prima linea come leader ; primo fra tutti e in collaborazione con Ettore Carucci, i{' '}
 				<a href="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc" target="_blank">
 					<span style={{ fontWeight: 'bold', color: '#000' }}>Berardi Jazz Connection</span>
 				</a>, un progetto jazz annoverato fra i più di spicco nel panorama del contemporany jazz europeo con i
 				quali ha rilasciato 4 cd conosciuti in tutto il mondo, Giappone ,Usa e Nord Europa in testa; alcune
-				composizioni sono state incluse in compilation di label e network mondiali. Nel 2016 ha formato un nuovo
-				progetto, i{' '}
+				composizioni sono state incluse in compilation di label e network mondiali. <br/>Nel 2016 ha formato un nuovo
+				progetto con <b>Pietro Vincenti</b> e <b>Camillo Pace</b>, i{' '}
 				<a href="https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh" target="_blank">
 					<span style={{ fontWeight: 'bold', color: '#000' }}>T-RIOT</span>
 				</a>, con i quali ha prodotto “A Different Truth” cd edito per l’etichetta giapponese Albòre Jazz,
@@ -87,7 +88,7 @@ const FL_Sidebar_Info = () => {
 			<h1 className="pro" id="triot" ref={imageRef}>
 				Info Lesson
 			</h1>
-			<p className="info-text">Per prenotazioni e lezioni cliccare in fondo alla pagina nella sezione contatti</p>
+			<p className="info-text">Per Clinic Masterclass e lezioni cliccare in fondo alla pagina nella sezione contatti</p>
 			<img src={fl4} alt="T-riot on stage" />
 			<hr />
 			<h1>English version</h1>
