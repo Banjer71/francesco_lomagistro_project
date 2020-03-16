@@ -37,7 +37,7 @@ const FL_Sidebar_Info = () => {
 	return (
 		<div className="info" id="homepage">
 			<h1 className="pro" id="fl" ref={imageRef}>
-				Francesco Lomagsitro
+				Francesco Lomagistro
 			</h1>
 			<p className="info-text">
 				Batterista/Percussionista/Insegnante da diversi anni sulle scene musicali nazionali ed internazionali,
