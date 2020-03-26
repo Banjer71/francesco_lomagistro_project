@@ -115,7 +115,7 @@ const FL_Sidebar_Info = () => {
 			<p className="info-text">
 				He performed in different venues as theatres, clubs and festivals in Europe, USA and Asia. He is
 				international endorser with{' '}
-				<a href="http://www.paiste.com/e/endorser_det.php?page=bio&endorserid=5682" target="_blank">
+				<a href="http://www.paiste.com/e/endorser_det.php?page=image&endorserid=5682" target="_blank">
 					<span style={{ fontWeight: 'bold', color: '#000' }}>Paiste</span>
 				</a>{' '}
 				and{' '}
