@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Helmet} from "react-helmet"
+import { Helmet } from 'react-helmet';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/navbar/NavBar';
@@ -45,6 +45,11 @@ function App() {
 		<Router>
 			<ScrollOnTop />
 			<div className="App">
+				<Helmet>
+					<title>Francesco Lomagistro</title>
+					<meta charSet="utf-8" />
+					<meta name="description" content="Francesco Lomagistro website" />
+				</Helmet>
 				<div className="container">
 					<SideDrawer show={sideDrawerIsOpen} handleClickOnItem={handleClickOnItem} />
 					{backdrop}

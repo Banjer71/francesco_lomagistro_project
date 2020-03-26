@@ -6,12 +6,21 @@ import Thumbnail from '../../images/thumb.jpg';
 import Thumbnail_03 from '../../images/video_3.jpg';
 import Thumbnail_02 from '../../images/thumb_paiste.jpg';
 import Thumbnail_04 from '../../images/thumb_triot.jpg';
-import Thumbnail_05 from '../../images/video_05.jpg'
+import Thumbnail_05 from '../../images/video_05.jpg';
 
 const VideoList = (props) => {
 	const renderVideo = (e) => {
 		props.onVideoSelect(e);
 	};
+
+	const handleScroll = () => {
+		let bodyClass = 'section1';
+		if (window.innerWidth > 960) {
+			document.body.className = bodyClass;
+		}
+	};
+
+	handleScroll();
 
 	return (
 		<div className="video" id="videos">
