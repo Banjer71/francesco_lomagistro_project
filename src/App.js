@@ -49,6 +49,7 @@ function App() {
 					<meta charSet="utf-8" />
 					<title>Francesco Lomagistro</title>
 					<meta name="description" content="Francesco Lomagistro website" />
+					<link rel="canonical" href="https://www.francescolomagistro.it/" />
 				</Helmet>
 				<div className="container">
 					<SideDrawer show={sideDrawerIsOpen} handleClickOnItem={handleClickOnItem} />
