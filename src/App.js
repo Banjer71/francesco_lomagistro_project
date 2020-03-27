@@ -43,13 +43,13 @@ function App() {
 
 	return (
 		<Router>
-		<Helmet>
-				<title>Francesco Lomagistro</title>
-				<meta charSet="utf-8" />
-				<meta name="description" content="Francesco Lomagistro website" />
-			</Helmet>
 			<ScrollOnTop />
 			<div className="App">
+				<Helmet>
+					<meta charSet="utf-8" />
+					<title>Francesco Lomagistro</title>
+					<meta name="description" content="Francesco Lomagistro website" />
+				</Helmet>
 				<div className="container">
 					<SideDrawer show={sideDrawerIsOpen} handleClickOnItem={handleClickOnItem} />
 					{backdrop}
