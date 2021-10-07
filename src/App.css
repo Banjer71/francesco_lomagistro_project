@@ -21,7 +21,7 @@ nav {
 
 #bg-image {
 	background-image: linear-gradient(to bottom, rgba(214, 209, 209, 0.05), rgba(71, 68, 68, 0.4)),
-		url('/assets/monile-header.jpg');
+		url('./assets/monile-header.jpg');
 	height: 80vh;
 	max-width: 100%;
 	background-size: cover;
@@ -32,7 +32,7 @@ nav {
 }
 
 #triot-bg {
-	background-image: url('/assets/triot.jpg');
+	background-image: url('./assets/triot.jpg');
 	height: 80vh;
 	max-width: 100%;
 	background-size: cover;
@@ -136,7 +136,7 @@ section img {
 @media screen and (min-width: 620px) {
 	#bg-image {
 		height: 85vh;
-		background-image: url('/assets/hero-desktop-fl.jpg');
+		background-image: url('./assets/hero-desktop-fl.jpg');
 	}
 }
 
@@ -195,7 +195,7 @@ section img {
 	}
 
 	.header-class {
-		background-image: url('/assets/hero-desktop-fl.jpg');
+		background-image: url('./assets/hero-desktop-fl.jpg');
 		background-position: top center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -208,7 +208,7 @@ section img {
 	}
 
 	.image {
-		background-image: url('/assets/triot.jpg');
+		background-image: url('./assets/triot.jpg');
 	}
 
 	.header-class > div {
@@ -224,12 +224,12 @@ section img {
 	}
 
 	#fl-1 {
-		background-image: url('/assets/francesco_top.jpg');
+		background-image: url('./assets/francesco_top.jpg');
 		background-size: cover;
 	}
 
 	#fl-2 {
-		background-image: url('/assets/main_large.jpg');
+		background-image: url('./assets/main_large.jpg');
 		background-position: top;
 		background-size: auto 100%;
 	}
@@ -240,14 +240,14 @@ section img {
 	}
 
 	#triot-bg-2 {
-		background-image: url('/assets/bjc_founders.jpg');
+		background-image: url('./assets/bjc_founders.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: top;
 	}
 
 	#triot-bg-3 {
-		background-image: url('/assets/triot.jpg');
+		background-image: url('./assets/triot.jpg');
 		background-size: cover;
 	}
 

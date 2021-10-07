@@ -75,7 +75,7 @@ const FL_Sidebar_Info = () => {
         e in collaborazione con Ettore Carucci, i{" "}
         <a
           href="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>
             Berardi Jazz Connection
@@ -90,7 +90,7 @@ const FL_Sidebar_Info = () => {
         <b>Camillo Pace</b>, i{" "}
         <a
           href="https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>T-RIOT</span>
         </a>
@@ -111,14 +111,14 @@ const FL_Sidebar_Info = () => {
         internazionale dei marchi{" "}
         <a
           href="http://www.paiste.com/e/endorser_det.php?page=image&endorserid=5682"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>Paiste</span>
         </a>{" "}
         e{" "}
         <a
           href="https://vicfirth.zildjian.com/francesco-lomagistro-vf.html"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>Vic Firth</span>
         </a>
@@ -161,14 +161,14 @@ const FL_Sidebar_Info = () => {
         Europe, USA and Asia. He is international endorser with{" "}
         <a
           href="http://www.paiste.com/e/endorser_det.php?page=image&endorserid=5682"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>Paiste</span>
         </a>{" "}
         and{" "}
         <a
           href="https://vicfirth.zildjian.com/francesco-lomagistro-vf.html"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>Vic Firth</span>
         </a>
@@ -181,7 +181,7 @@ const FL_Sidebar_Info = () => {
         He leads the group{" "}
         <a
           href="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>
             Berardi Jazz Connection
@@ -192,7 +192,7 @@ const FL_Sidebar_Info = () => {
         new trio project the
         <a
           href="https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}> T-RIOT</span>
         </a>
