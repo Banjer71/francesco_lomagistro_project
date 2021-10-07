@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf569f113029d054fc577c3adf26931b",
+    "revision": "9e21e7105c0b13124b648ff7e7ffd2e4",
     "url": "/francesco_lomagistro_project/index.html"
   },
   {
-    "revision": "74c964efaf208c951039",
-    "url": "/francesco_lomagistro_project/static/css/main.b58dda3d.chunk.css"
+    "revision": "954ebda8830707b4365e",
+    "url": "/francesco_lomagistro_project/static/css/main.b71c3582.chunk.css"
   },
   {
     "revision": "e203a335a826dd881b4c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/francesco_lomagistro_project/static/js/2.26a1f7c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74c964efaf208c951039",
+    "revision": "954ebda8830707b4365e",
     "url": "/francesco_lomagistro_project/static/js/main.67c0317b.chunk.js"
   },
   {
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/francesco_lomagistro_project/static/media/francesco_top.41f6ec64.jpg"
   },
   {
+    "revision": "d653773a09558fe61536a0eb95419fb0",
+    "url": "/francesco_lomagistro_project/static/media/hero-desktop-fl.d653773a.jpg"
+  },
+  {
     "revision": "f73909b75607fa8d122fe05ad059a0f0",
     "url": "/francesco_lomagistro_project/static/media/instagram.f73909b7.svg"
   },
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7979375324636dba3b85bce585bb4e58",
     "url": "/francesco_lomagistro_project/static/media/main_large.79793753.jpg"
+  },
+  {
+    "revision": "80f020dd103dba27a1240617d4acac8d",
+    "url": "/francesco_lomagistro_project/static/media/monile-header.80f020dd.jpg"
   },
   {
     "revision": "56eab5ba7f57dd3f5d87dce38b8f0f95",
@@ -74,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c2106f9345972e55fd69435fc6f4495",
     "url": "/francesco_lomagistro_project/static/media/thumb_triot.9c2106f9.jpg"
+  },
+  {
+    "revision": "a4caff469ad9abc54cd0bbce9ed08f89",
+    "url": "/francesco_lomagistro_project/static/media/triot.a4caff46.jpg"
   },
   {
     "revision": "0e7bb453baffc291ea6d2a3444d6f8c7",
