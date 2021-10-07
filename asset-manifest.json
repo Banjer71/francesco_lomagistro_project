@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/francesco_lomagistro_project/static/css/main.b58dda3d.chunk.css",
-    "main.js": "/francesco_lomagistro_project/static/js/main.f0138de0.chunk.js",
-    "main.js.map": "/francesco_lomagistro_project/static/js/main.f0138de0.chunk.js.map",
+    "main.js": "/francesco_lomagistro_project/static/js/main.68229050.chunk.js",
+    "main.js.map": "/francesco_lomagistro_project/static/js/main.68229050.chunk.js.map",
     "runtime-main.js": "/francesco_lomagistro_project/static/js/runtime-main.ecf47480.js",
     "runtime-main.js.map": "/francesco_lomagistro_project/static/js/runtime-main.ecf47480.js.map",
-    "static/js/2.fbe61d1c.chunk.js": "/francesco_lomagistro_project/static/js/2.fbe61d1c.chunk.js",
-    "static/js/2.fbe61d1c.chunk.js.map": "/francesco_lomagistro_project/static/js/2.fbe61d1c.chunk.js.map",
+    "static/js/2.289efa40.chunk.js": "/francesco_lomagistro_project/static/js/2.289efa40.chunk.js",
+    "static/js/2.289efa40.chunk.js.map": "/francesco_lomagistro_project/static/js/2.289efa40.chunk.js.map",
     "index.html": "/francesco_lomagistro_project/index.html",
-    "precache-manifest.9899307de975d5a728bb70e90d11da67.js": "/francesco_lomagistro_project/precache-manifest.9899307de975d5a728bb70e90d11da67.js",
+    "precache-manifest.6df8d30a45af5d3d10ad41aceb4498ab.js": "/francesco_lomagistro_project/precache-manifest.6df8d30a45af5d3d10ad41aceb4498ab.js",
     "service-worker.js": "/francesco_lomagistro_project/service-worker.js",
     "static/css/main.b58dda3d.chunk.css.map": "/francesco_lomagistro_project/static/css/main.b58dda3d.chunk.css.map",
-    "static/js/2.fbe61d1c.chunk.js.LICENSE.txt": "/francesco_lomagistro_project/static/js/2.fbe61d1c.chunk.js.LICENSE.txt",
+    "static/js/2.289efa40.chunk.js.LICENSE.txt": "/francesco_lomagistro_project/static/js/2.289efa40.chunk.js.LICENSE.txt",
     "static/media/bjc.jpg": "/francesco_lomagistro_project/static/media/bjc.d475a73f.jpg",
     "static/media/bjc_founders.jpg": "/francesco_lomagistro_project/static/media/bjc_founders.4f9ea67f.jpg",
     "static/media/facebook.svg": "/francesco_lomagistro_project/static/media/facebook.b9173756.svg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ecf47480.js",
-    "static/js/2.fbe61d1c.chunk.js",
+    "static/js/2.289efa40.chunk.js",
     "static/css/main.b58dda3d.chunk.css",
-    "static/js/main.f0138de0.chunk.js"
+    "static/js/main.68229050.chunk.js"
   ]
 }
