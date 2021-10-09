@@ -9,6 +9,7 @@ const Iframe = (props) => {
 			frameBorder={props.frameBorder}
 			allow={props.allow}
 			allowFullScreen={props.fullscreen}
+			title='my frame video'
 		/>
 	);
 };
