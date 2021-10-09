@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import {  HashRouter as Router, Route } from "react-router-dom";
+import {  HashRouter , Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/navbar/NavBar";
 import Header from "./components/header/Header";
@@ -42,7 +42,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <ScrollOnTop />
       <div className="App">
         <Helmet>
@@ -82,7 +82,7 @@ function App() {
           <Footer />
         </div>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
