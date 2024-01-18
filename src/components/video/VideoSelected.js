@@ -23,7 +23,7 @@ const VideoSelected = (props) => {
 						<Iframe
 							width="1000"
 							height="500"
-							link="https://www.youtube.com/embed/UhtpNjlIWjw"
+							link="https://www.youtube.com/embed/1seDxMwxfYk?si=h_Ho0z2gdLSvTEkB"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							fullscreen="allowFullscreen"
@@ -31,8 +31,6 @@ const VideoSelected = (props) => {
 					)
 					}
 				</div>
-				{/* <div className="videoselected-title">autor{props.videotitle}</div>
-				<div className="videoselected-author">{props.videoauthor}</div> */}
 			</div>
 		</div>
 	);

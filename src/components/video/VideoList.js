@@ -7,6 +7,8 @@ import Thumbnail_03 from '../../images/video_3.jpg';
 import Thumbnail_02 from '../../images/thumb_paiste.jpg';
 import Thumbnail_04 from '../../images/thumb_triot.jpg';
 import Thumbnail_05 from '../../images/video_05.jpg';
+import Thumbnail_06 from '../../images/v_ludwig_one.jpg'
+import Thumbnail_07 from '../../images/video_ludwig_two.jpg'
 
 const VideoList = (props) => {
 	const renderVideo = (e) => {
@@ -25,6 +27,34 @@ const VideoList = (props) => {
 	return (
 		<div className="video" id="videos">
 			<div className="media-video">
+			<VideoFrame
+					onVideoChange={(e) => renderVideo('https://www.youtube.com/embed/1seDxMwxfYk?si=h_Ho0z2gdLSvTEkB')}
+					videotitle="Ludwig video demo"
+					videoauthor="Francesco Lomagistro"
+				>
+					<Iframe
+						width="160"
+						height="100"
+						link={Thumbnail_06}
+						frameBorder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						fullscreen="allowFullscreen"
+					/>
+				</VideoFrame>
+				<VideoFrame
+					onVideoChange={(e) => renderVideo('https://www.youtube.com/embed/iGUBAjoB3Bc?si=KfhpnINBJY6ca1tU')}
+					videotitle="Ludwig video demo"
+					videoauthor="Francesco Lomagistro"
+				>
+					<Iframe
+						width="160"
+						height="100"
+						link={Thumbnail_07}
+						frameBorder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						fullscreen="allowFullscreen"
+					/>
+				</VideoFrame>
 				<VideoFrame
 					onVideoChange={(e) => renderVideo('https://www.youtube.com/embed/UhtpNjlIWjw')}
 					videotitle="Paiste video demostration"
@@ -96,6 +126,7 @@ const VideoList = (props) => {
 						fullscreen="allowFullscreen"
 					/>
 				</VideoFrame>
+				
 			</div>
 		</div>
 	);
