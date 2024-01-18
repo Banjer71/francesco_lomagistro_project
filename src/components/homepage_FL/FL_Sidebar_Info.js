@@ -75,7 +75,8 @@ const FL_Sidebar_Info = () => {
         e in collaborazione con Ettore Carucci, i{" "}
         <a
           href="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>
             Berardi Jazz Connection
@@ -90,7 +91,8 @@ const FL_Sidebar_Info = () => {
         <b>Camillo Pace</b>, i{" "}
         <a
           href="https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>T-RIOT</span>
         </a>
@@ -99,7 +101,14 @@ const FL_Sidebar_Info = () => {
         Europa, Sud Africa e Stati Uniti; nominato fra i migliori dischi del
         2017 per Radio Jazz fm di Londra, e ai primi posti della Top Jazz Charts
         di iTunes in Finlandia e Vietnam, nella primavera del 2018 faranno un
-        tour esibendosi in teatri e jazz club in Thailandia e Cina
+        tour esibendosi in teatri e jazz club in Thailandia e Cina. <br />
+        Nel 2021 esce un nuovo lavoro discografico da leader , stavolta in
+        compagnia di Fabio Giachino e Gaetano Partipilo , si tratta di "World
+        Expansion", un lavoro discografico che raccoglierà molti consensi dalla
+        critica, distribuito dall' etichetta Prima o Poi di Petra Magoni. <br />
+        Nel 2023 , a nome di Messina Pace Lomagistro uscirà "Galaxy Portrait" un
+        disco interamente registrato live in una masseria nelle campagne della
+        Valle d'Itria, distribuito da Angapp Music.
       </p>
       <img src={fl2} alt="T-riot on stage" />
       <p className="info-text">
@@ -111,16 +120,30 @@ const FL_Sidebar_Info = () => {
         internazionale dei marchi{" "}
         <a
           href="http://www.paiste.com/e/endorser_det.php?page=image&endorserid=5682"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>Paiste</span>
-        </a>{" "}
-        e{" "}
+        </a>
+        , &nbsp;
         <a
           href="https://vicfirth.zildjian.com/francesco-lomagistro-vf.html"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <span style={{ fontWeight: "bold", color: "#000" }}>Vic Firth</span>
+          <span style={{ fontWeight: "bold", color: "#000" }}>
+            Vic Firth&nbsp;
+          </span>
+        </a>
+        e&nbsp;
+        <a
+          href="https://vicfirth.zildjian.com/francesco-lomagistro-vf.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span style={{ fontWeight: "bold", color: "#000" }}>
+            &nbsp;Ludwig
+          </span>
         </a>
         .
       </p>
@@ -158,19 +181,41 @@ const FL_Sidebar_Info = () => {
       </p>
       <p className="info-text">
         He performed in different venues as theatres, clubs and festivals in
-        Europe, USA and Asia. He is international endorser with{" "}
+        Europe, USA and Asia. <br />
+        In 2021, a new record will be released as a leader, this time in the
+        company of Fabio Giachino and Gaetano Partipilo, "World Expansion", a
+        record that will garner much critical acclaim, distributed by Petra
+        Magoni's Prima o Poi label.
+        <br />
+        In 2023, "Galaxy Portrait" will be released under the name of Messina
+        Pace Lomagistro, an album entirely recorded live on a farm in the
+        countryside of the Valle d'Itria, distributed by Angapp Music.
+        <br />
+        He is international endorser with &nbsp;
         <a
           href="http://www.paiste.com/e/endorser_det.php?page=image&endorserid=5682"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>Paiste</span>
-        </a>{" "}
-        and{" "}
+        </a>
+        , &nbsp;
         <a
           href="https://vicfirth.zildjian.com/francesco-lomagistro-vf.html"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <span style={{ fontWeight: "bold", color: "#000" }}>Vic Firth</span>
+          <span style={{ fontWeight: "bold", color: "#000" }}>
+            &nbsp;Vic Firth
+          </span>
+        </a>
+        &nbsp;and&nbsp;
+        <a
+          href="https://www.ludwig-drums.eu/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span style={{ fontWeight: "bold", color: "#000" }}>Ludwig</span>
         </a>
         .
       </p>
@@ -181,7 +226,8 @@ const FL_Sidebar_Info = () => {
         He leads the group{" "}
         <a
           href="https://open.spotify.com/artist/6GUaa8teYHKlgnUeUAWQHc"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}>
             Berardi Jazz Connection
@@ -192,7 +238,8 @@ const FL_Sidebar_Info = () => {
         new trio project the
         <a
           href="https://open.spotify.com/album/5P5wFTt9zl2uzvv2HxELLh"
-          target="_blank" rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span style={{ fontWeight: "bold", color: "#000" }}> T-RIOT</span>
         </a>
