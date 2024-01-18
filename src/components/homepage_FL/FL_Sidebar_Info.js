@@ -185,10 +185,12 @@ const FL_Sidebar_Info = () => {
         In 2021, a new record will be released as a leader, this time in the
         company of Fabio Giachino and Gaetano Partipilo, "World Expansion", a
         record that will garner much critical acclaim, distributed by Petra
-        Magoni's Prima o Poi label.<br/>In 2023, "Galaxy Portrait" will be released
-        under the name of Messina Pace Lomagistro, an album entirely recorded
-        live on a farm in the countryside of the Valle d'Itria, distributed by
-        Angapp Music.<br/>
+        Magoni's Prima o Poi label.
+        <br />
+        In 2023, "Galaxy Portrait" will be released under the name of Messina
+        Pace Lomagistro, an album entirely recorded live on a farm in the
+        countryside of the Valle d'Itria, distributed by Angapp Music.
+        <br />
         He is international endorser with &nbsp;
         <a
           href="http://www.paiste.com/e/endorser_det.php?page=image&endorserid=5682"
