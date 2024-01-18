@@ -137,7 +137,7 @@ const FL_Sidebar_Info = () => {
         </a>
         e&nbsp;
         <a
-          href="https://vicfirth.zildjian.com/francesco-lomagistro-vf.html"
+        href="https://www.ludwig-drums.eu/"
           target="_blank"
           rel="noopener noreferrer"
         >
