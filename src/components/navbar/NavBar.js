@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 import SideMenu from './togglemenu/SideMenu'
 
-const NavBar = ({ toggleClickHandler, logo, home, projects, video }) => {
+const NavBar = ({ toggleClickHandler, logo, home, projects, video, book }) => {
 	return (
 		<nav>
 			<SideMenu click={toggleClickHandler} />
@@ -22,6 +22,11 @@ const NavBar = ({ toggleClickHandler, logo, home, projects, video }) => {
 				<li>
 					<Link to='/video' alt="videos" >
 						{video}
+					</Link>
+				</li>
+				<li>
+					<Link to='/book' alt="Book" >
+						{book}
 					</Link>
 				</li>
 			</ul>

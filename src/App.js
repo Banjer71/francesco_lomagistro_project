@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import {  HashRouter , Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/navbar/NavBar";
 import Header from "./components/header/Header";
@@ -15,6 +15,8 @@ import Projects_Sidebar from "./components/projects/Projects_Sidebar";
 import VideoSelected from "./components/video/VideoSelected";
 import VideoList from "./components/video/VideoList";
 import ScrollOnTop from "./ScrollOnTop";
+import Book from "./components/book/book";
+import Book_Header from "./components/book/Book_Header";
 
 function App() {
   const [sideDrawerIsOpen, setSideDrawer] = useState(false);
@@ -63,6 +65,7 @@ function App() {
             home="home"
             projects="projects"
             video="video"
+            book="book"
             handleClickOnItem={handleClickOnItem}
           />
           <Header>
@@ -71,10 +74,12 @@ function App() {
               <VideoSelected selectedVideoUrl={selectedVideoUrl} />
             </Route>
             <Route path="/projects" exact component={Projects_Header} />
+            <Route path="/book" exact component={Book_Header} />
           </Header>
           <SideBar>
             <Route path="/" exact component={FL_Sidebar_Info} />
             <Route path="/projects" exact component={Projects_Sidebar} />
+            <Route path="/book" exact component={Book} />
             <Route path="/video">
               <VideoList onVideoSelect={handleVideoClick} />
             </Route>
