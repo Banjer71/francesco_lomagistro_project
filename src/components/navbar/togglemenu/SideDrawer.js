@@ -26,6 +26,11 @@ const sideDrawer = ({ show, handleClickOnItem }) => {
 						video
 					</Link>
 				</li>
+				<li>
+					<Link to="/book" alt="book" onClick={handleClickOnItem}>
+						Book
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);

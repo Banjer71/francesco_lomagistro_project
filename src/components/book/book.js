@@ -51,34 +51,77 @@ const Book = () => {
       </h1>
       <p
         className="info-text"
-        style={{ fontStyle: "italic", fontSize: "15px", padding: "30px" }}
+        style={{ fontSize: "15px", padding: "30px" }}
       >
         <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
-          {/* <a
-            href="../assets/tracce_libro.zip"
+          <a
+            href="../assets/Tracce-1-21.zip"
             target="_blank"
             rel="noreferrer"
             download
-          > */}
-            Audio file
-          {/* </a> */}
+          >
+            Tracce 1-11
+          </a>
         </div>
+        <br />
+        <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
+          <a
+            href="../assets/Tracce-22-42.zip"
+            target="_blank"
+            rel="noreferrer"
+            download
+          >
+           Tracce audio 12-42
+          </a>
+        </div>
+        <br />
+        <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
+          <a
+            href="../assets/Tracce-43-65.zip"
+            target="_blank"
+            rel="noreferrer"
+            download
+          >
+            Tracce audio 43-63
+          </a>
+        </div>
+        <br />
+        <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
+          <a
+            href="../assets/Tracce-64-78.zip"
+            target="_blank"
+            rel="noreferrer"
+            download
+          >
+            Tracce audio 64-78
+          </a>
+        </div>
+        <br/>
+        <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
+          <a
+            href="../assets/Tracce-79-99.zip"
+            target="_blank"
+            rel="noreferrer"
+            download
+          >
+            Tracce audio 79-99
+          </a>
+        </div>
+        <br/>
+        <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
+          <a
+            href="../assets/Tracce-100-112.zip"
+            target="_blank"
+            rel="noreferrer"
+            download
+          >
+            Tracce audio 100-112
+          </a>
+        </div>
+        <br/>
       </p>
      
       <img src={LogoBook} alt="copertina libro" />
-      {/* <div className="band-members">
-        <ul className="triot-band-members">
-          <li>
-            Drums: <span>Francesco Lomagistro</span>
-          </li>
-          <li>
-            Bass player: <span>Camillo Pace</span>
-          </li>
-          <li>
-            Keyboards: <span>Pietro Vincenti</span>
-          </li>
-        </ul>
-      </div> */}
       <div className="media-icons">
         <SocialMedia
           icon={facebook_logo}

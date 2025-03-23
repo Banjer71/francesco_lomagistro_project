@@ -6,8 +6,8 @@
     position: fixed;
     top: 10%;
     left: 50%;
-    width: 90%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 90%;
     z-index: 200;
     transform: translate(-250%);
     transition: transform 0.3s ease-out;
@@ -44,7 +44,7 @@
     color: #fa923f;
   }
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1033px) {
     .side-drawer {
       display: none;
     }

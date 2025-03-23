@@ -65,7 +65,7 @@ const FL_Sidebar_Info = () => {
         Schnitter , Vito Di Modugno, Fabio Morgera, Carol Sudhalter, Cicci
         Santucci, Marco Tamburini, Dario Deidda, Max Ionata, Gigi Cifarelli,
         Roberto Ottaviano, Gaetano Partipilo, Fabio Giachino, Barend Middlehoff,
-        Teo Ciavarella ,Orchestra del DAMS di Bologna e tanti altri musisti di
+        Teo Ciavarella ,Orchestra del DAMS di Bologna, Sugar Blu e tanti altri musisti di
         spicco della sua area geografica e musicale.
       </p>
       <img src={fl1} alt="T-riot on stage" />
