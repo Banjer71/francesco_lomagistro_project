@@ -49,6 +49,7 @@ const Book = () => {
       <h1 className="pro" id="book" ref={imageRef}>
         Titolo Libro
       </h1>
+      <img src={LogoBook} alt="copertina libro" />
       <p
         className="info-text"
         style={{ fontSize: "15px", padding: "30px" }}
@@ -121,7 +122,7 @@ const Book = () => {
         <br/>
       </p>
      
-      <img src={LogoBook} alt="copertina libro" />
+      
       <div className="media-icons">
         <SocialMedia
           icon={facebook_logo}
