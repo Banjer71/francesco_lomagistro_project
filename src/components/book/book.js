@@ -51,7 +51,7 @@ const Book = () => {
       </h1>
       <p
         className="info-text"
-        style={{ fontStyle: "italic", fontSize: "15px", padding: "30px" }}
+        style={{ fontSize: "15px", padding: "30px" }}
       >
         <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
           {/* <a
@@ -60,7 +60,29 @@ const Book = () => {
             rel="noreferrer"
             download
           > */}
-            Audio file
+            Tracce 1 -10
+          {/* </a> */}
+        </div>
+        <br />
+        <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
+          {/* <a
+            href="../assets/tracce_libro.zip"
+            target="_blank"
+            rel="noreferrer"
+            download
+          > */}
+           Tracce audio 11-20
+          {/* </a> */}
+        </div>
+        <br />
+        <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
+          {/* <a
+            href="../assets/tracce_libro.zip"
+            target="_blank"
+            rel="noreferrer"
+            download
+          > */}
+            Tracce audio 20-31
           {/* </a> */}
         </div>
       </p>
