@@ -1,10 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import Triot from "../../images/triot_stage.jpg";
-import bjc from "../../images/bjc.jpg";
 import SocialMedia from "../socialmedia/SocialMedia";
 import spotify_logo from "../../social-icons/spotify.svg";
 import facebook_logo from "../../social-icons/facebook.svg";
-import bjc_founders from "../../images/bjc_founders.jpg";
+import LogoBook from "../../images/book_cover_p.jpg";
 
 import "./book.css";
 
@@ -24,7 +22,7 @@ const Book = () => {
         rect.top - window.innerHeight > -259
       ) {
         bodyClass = "section4";
-        flip.innerText = "My Projects";
+        flip.innerText = "Book";
         flip.style.color = "#f9c943";
       } else if (rect.top - window.innerHeight < -260) {
         bodyClass = "section5";
@@ -32,7 +30,7 @@ const Book = () => {
         flip.style.color = "#f9c943";
       } else {
         bodyClass = "section4";
-        flip.innerText = "T-RIOT";
+        flip.innerText = "Book";
         flip.style.color = "#f9c943";
       }
     }
@@ -47,35 +45,27 @@ const Book = () => {
   });
 
   return (
-    <div className="info" id="projects">
-      <h1 className="pro" id="triot" ref={imageRef}>
-       Titolo Libro
+    <div className="info" id="book">
+      <h1 className="pro" id="book" ref={imageRef}>
+        Titolo Libro
       </h1>
       <p
         className="info-text"
         style={{ fontStyle: "italic", fontSize: "15px", padding: "30px" }}
       >
-       placeholder........
+        <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
+          {/* <a
+            href="../assets/tracce_libro.zip"
+            target="_blank"
+            rel="noreferrer"
+            download
+          > */}
+            Audio file
+          {/* </a> */}
+        </div>
       </p>
-      <p className="info-text">
-      placeholder........
-      </p>
-      <p className="info-text">
-      placeholder........
-      </p>
-      <p
-        className="info-text"
-        style={{ fontStyle: "italic", fontSize: "15px", padding: "30px" }}
-      >
-       placeholder........
-      </p>
-      <p
-        className="info-text"
-        style={{ fontStyle: "italic", fontSize: "15px", padding: "30px" }}
-      >
-        placeholder........
-      </p>
-      <img src={Triot} alt="T-riot on stage" />
+     
+      <img src={LogoBook} alt="copertina libro" />
       {/* <div className="band-members">
         <ul className="triot-band-members">
           <li>

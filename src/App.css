@@ -140,7 +140,7 @@ section img {
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1033px) {
 	nav {
 		display: grid;
 		position: fixed;
@@ -167,14 +167,10 @@ section img {
 
 	nav ul {
 		display: flex;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
 		letter-spacing: 1px;
 		background-color: #75accb;
-	}
-
-	nav ul li:first-child {
-		padding-left: 40px;
 	}
 
 	nav ul li a {
@@ -182,8 +178,8 @@ section img {
 		font-family: 'Merriweather Sans', sans-serif;
 		text-decoration: none;
 		padding: 5px;
-		margin-right: 40px;
-		font-size: 1.2rem;
+		margin-right: .5rem;
+		font-size: 1rem;
 	}
 
 	#bg-image {
@@ -209,6 +205,15 @@ section img {
 
 	.image {
 		background-image: url('./assets/triot.jpg');
+	}
+	.book {
+		background-image: url('./assets/cover_book.jpg');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 70vw;
+		height: 100vh;
+		position: fixed;
 	}
 
 	.header-class > div {
@@ -248,6 +253,11 @@ section img {
 
 	#triot-bg-3 {
 		background-image: url('./assets/triot.jpg');
+		background-size: cover;
+	}
+
+	#book-bg {
+		background-image: url('./assets/libro_foto.jpg');
 		background-size: cover;
 	}
 

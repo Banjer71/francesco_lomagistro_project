@@ -16,6 +16,7 @@ import VideoSelected from "./components/video/VideoSelected";
 import VideoList from "./components/video/VideoList";
 import ScrollOnTop from "./ScrollOnTop";
 import Book from "./components/book/book";
+import Book_Header from "./components/book/Book_Header";
 
 function App() {
   const [sideDrawerIsOpen, setSideDrawer] = useState(false);
@@ -73,7 +74,7 @@ function App() {
               <VideoSelected selectedVideoUrl={selectedVideoUrl} />
             </Route>
             <Route path="/projects" exact component={Projects_Header} />
-           
+            <Route path="/book" exact component={Book_Header} />
           </Header>
           <SideBar>
             <Route path="/" exact component={FL_Sidebar_Info} />
