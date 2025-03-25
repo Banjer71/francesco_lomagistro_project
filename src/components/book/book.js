@@ -56,7 +56,7 @@ const Book = () => {
       >
         <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
           <a
-            href="../assets/Tracce-1-21.zip"
+            href="https://mega.nz/file/pYFEXJQJ#VZSO4udxUQwpvrP-7O85ZwtbW4IWVElKIwUfsSYXkUY"
             target="_blank"
             rel="noreferrer"
             download
