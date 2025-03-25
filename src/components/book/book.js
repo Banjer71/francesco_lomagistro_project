@@ -49,13 +49,14 @@ const Book = () => {
       <h1 className="pro" id="book" ref={imageRef}>
         Titolo Libro
       </h1>
+      <img src={LogoBook} alt="copertina libro" />
       <p
         className="info-text"
         style={{ fontSize: "15px", padding: "30px" }}
       >
         <div style={{ margin: '0 auto', width: "200px", backgroundColor: "lightgrey",padding:"10px" , borderRadius:"10px",textAlign:"center"}}>
           <a
-            href="../assets/Tracce-1-21.zip"
+            href="https://mega.nz/file/pYFEXJQJ#VZSO4udxUQwpvrP-7O85ZwtbW4IWVElKIwUfsSYXkUY"
             target="_blank"
             rel="noreferrer"
             download
@@ -121,7 +122,7 @@ const Book = () => {
         <br/>
       </p>
      
-      <img src={LogoBook} alt="copertina libro" />
+      
       <div className="media-icons">
         <SocialMedia
           icon={facebook_logo}
