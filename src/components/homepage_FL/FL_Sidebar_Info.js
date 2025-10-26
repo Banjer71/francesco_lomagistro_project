@@ -60,7 +60,7 @@ const FL_Sidebar_Info = () => {
         Jackson, Joice Youlle, Kelly Joyce, Sandra St. Victor, Wendy Lewis,
         Madame Pat Tandy, Mariella Nava, Antonella Ruggero, Milva, Cecilia
         Gasdia, Elio, Erz, Freak Antoni, Enzo Gragnaniello, Tony Esposito,
-        Eugenio Bennato, Mimmo Locasciulli, Mario Rosini, Fabrizio Sotti,
+        Mimmo Locasciulli, Mario Rosini, Fabrizio Sotti,
         Chihiro Yamanaka, Rick Stone, Rotem Sivam, Marcus Machado, David
         Schnitter , Vito Di Modugno, Fabio Morgera, Carol Sudhalter, Cicci
         Santucci, Marco Tamburini, Dario Deidda, Max Ionata, Gigi Cifarelli,
